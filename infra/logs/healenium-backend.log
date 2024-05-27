@@ -1,0 +1,9 @@
+2024-05-27 10:02:02.885  INFO 1 - [7878-exec-8] healenium                        : [Save Elements] Request: By.id(user-name) 
+2024-05-27 10:02:34.617  INFO 1 - [7878-exec-1] healenium                        : [Save Elements] Request: By.id(login-button) 
+2024-05-27 10:02:34.845  INFO 1 - [7878-exec-2] healenium                        : [Save Elements] Request: By.id(add-to-cart-sauce-labs-bike-light) 
+2024-05-27 10:05:53.197  INFO 1 - [7878-exec-6] healenium                        : [Save Elements] Request: By.id(user-name) 
+2024-05-27 10:06:22.456  INFO 1 - [878-exec-10] healenium                        : [Save Elements] Request: By.id(login-button) 
+2024-05-27 10:06:22.564  INFO 1 - [7878-exec-1] healenium                        : [Save Elements] Request: By.id(add-to-cart-sauce-labs-bike-light) 
+2024-05-27 10:10:50.892  WARN 1 - [housekeeper] c.z.hikari.pool.HikariPool       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54s942ms999µs880ns). 
+2024-05-27 10:31:41.135  WARN 1 - [housekeeper] c.z.hikari.pool.HikariPool       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m19s721ms84µs781ns). 
+2024-05-27 11:26:07.182  WARN 1 - [housekeeper] c.z.hikari.pool.HikariPool       : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=16m18s693ms168µs786ns). 

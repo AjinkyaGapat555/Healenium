@@ -2,24 +2,32 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-05-27T12:35:47 IST" name="Default suite" finished-at="2024-05-27T12:36:27 IST" duration-ms="39983">
+  <suite started-at="2024-06-04T18:08:33 IST" name="Default suite" finished-at="2024-06-04T18:08:49 IST" duration-ms="15740">
     <groups>
     </groups>
-    <test started-at="2024-05-27T12:35:47 IST" name="Default test" finished-at="2024-05-27T12:36:27 IST" duration-ms="39983">
-      <class name="logintest.Logintest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:logintest.Logintest@235ecd9f]" started-at="2024-05-27T12:35:48 IST" name="setUp" finished-at="2024-05-27T12:35:53 IST" duration-ms="5059" status="PASS">
+    <test started-at="2024-06-04T18:08:33 IST" name="Default test" finished-at="2024-06-04T18:08:49 IST" duration-ms="15740">
+      <class name="logintest.Loginweb">
+        <test-method is-config="true" signature="beforesuit()[pri:0, instance:logintest.Loginweb@548d708a]" started-at="2024-06-04T18:08:33 IST" name="beforesuit" finished-at="2024-06-04T18:08:33 IST" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testExample()[pri:0, instance:logintest.Logintest@235ecd9f]" started-at="2024-05-27T12:35:53 IST" name="testExample" finished-at="2024-05-27T12:36:22 IST" duration-ms="29535" status="PASS">
+        </test-method> <!-- beforesuit -->
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:logintest.Loginweb@548d708a]" started-at="2024-06-04T18:08:33 IST" name="loadConfig" finished-at="2024-06-04T18:08:33 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testExample -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:logintest.Logintest@235ecd9f]" started-at="2024-05-27T12:36:22 IST" name="tearDown" finished-at="2024-05-27T12:36:27 IST" duration-ms="5347" status="PASS">
+        </test-method> <!-- loadConfig -->
+        <test-method is-config="true" signature="launchwebapp()[pri:0, instance:logintest.Loginweb@548d708a]" started-at="2024-06-04T18:08:33 IST" name="launchwebapp" finished-at="2024-06-04T18:08:38 IST" duration-ms="5136" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- logintest.Logintest -->
+        </test-method> <!-- launchwebapp -->
+        <test-method signature="Alert()[pri:7, instance:logintest.Loginweb@548d708a]" started-at="2024-06-04T18:08:38 IST" name="Alert" finished-at="2024-06-04T18:08:49 IST" duration-ms="10563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Alert -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:logintest.Loginweb@548d708a]" started-at="2024-06-04T18:08:49 IST" name="teardown" finished-at="2024-06-04T18:08:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- logintest.Loginweb -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
